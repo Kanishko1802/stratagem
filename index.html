@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stratagem | Jadavpur University Think Tank</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CDN (OK for now, can switch later) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: '#0B1C2D',
+            gold: '#D4AF37'
+          },
+          fontFamily: {
+            heading: ['Playfair Display', 'serif'],
+            body: ['Inter', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-navy text-white font-body">
+
+  <!-- NAVBAR -->
+  <nav class="flex justify-between items-center px-6 py-4 border-b border-white/10">
+    <h1 class="text-xl font-heading tracking-wide text-gold">STRATAGEM</h1>
+    <div class="space-x-6 text-sm">
+      <a href="about.html" class="hover:text-gold">About</a>
+      <a href="domains.html" class="hover:text-gold">Domains</a>
+      <a href="events.html" class="hover:text-gold">Events</a>
+      <a href="team.html" class="hover:text-gold">Team</a>
+      <a href="join.html" class="hover:text-gold">Join</a>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="min-h-[90vh] flex flex-col justify-center items-center text-center px-6">
+    <h2 class="font-heading text-4xl md:text-6xl text-gold mb-6">
+      Stratagem
+    </h2>
+
+    <p class="max-w-2xl text-lg text-white/80">
+      Jadavpur University’s first student-led think tank —  
+      where ideas meet strategy, and intellect drives impact.
+    </p>
+
+    <p class="mt-6 italic text-white/60">
+      Powered by neurons. Lit by strategy.
+    </p>
+
+    <a href="join.html" class="mt-10 px-8 py-3 border border-gold text-gold hover:bg-gold hover:text-navy transition">
+      Join the Think Tank
+    </a>
+  </section>
+
+  <!-- ABOUT PREVIEW -->
+  <section class="bg-white text-navy py-16 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="font-heading text-3xl mb-4">What is Stratagem?</h3>
+      <p class="text-lg">
+        Stratagem is a student-driven intellectual platform at Jadavpur University,
+        dedicated to critical thinking, policy analysis, technological foresight,
+        and strategic discourse across disciplines.
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center text-sm text-white/50 py-6">
+    © 2026 Stratagem, Jadavpur University
+  </footer>
+
+</body>
+</html>
